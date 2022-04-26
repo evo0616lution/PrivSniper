@@ -1,0 +1,4 @@
+plyer
+discord
+colorama
+pyjavaproperties
