@@ -1,11 +1,13 @@
 import discord, random, os
 from time import sleep
 from colorama import Fore as color
+from colorama import init
 from plyer import notification
 from pyjavaproperties import Properties
 from discord.ext import commands
 from playsound import playsound
 p = Properties()
+init()
 p.load(open('sniper.properties'))
 TOKEN = p['token']
 bot = commands.Bot(command_prefix="prv!!", help_command=None, self_bot=True)
